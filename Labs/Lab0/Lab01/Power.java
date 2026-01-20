@@ -10,7 +10,7 @@ public class PowerMethod1 {
 
 /*  Differences between Java and Python versions:
     1. Java requires an explicit class and a main method, while Python does not.
-    2. Java uses explicit data types (e.g., long), while Python is dynamically typed.
+    2. Java is statically typed, while Python is dynamically typed.
     3. Java code must be complied before running, while Python is interpreted.
  */
 
