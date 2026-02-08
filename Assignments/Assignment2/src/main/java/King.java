@@ -27,13 +27,8 @@ public class King extends ChessPiece {
       return false;
     }
     return (
-        //can move diagonally
-        (Math.abs(row - targetRow) == Math.abs(column - targetCol)) ||
-            //can move horizontally
-            (Math.abs(row - targetRow) == 0) ||
-            //can move vertically
-            (Math.abs(column - targetCol) == 0))
-        //but only can move one space
-        && ((Math.abs(row - targetRow) == 1) || ((Math.abs(column - targetCol) == 1)));
+        //can move diagonally, horizontally, vertically, but only can move one space
+        (Math.abs(row - targetRow) <= 1) && (Math.abs(column - targetCol) <= 1)
+    );
   }
 }

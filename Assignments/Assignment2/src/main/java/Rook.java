@@ -1,8 +1,8 @@
 /**
- * Rock chess piece, a rock can move horizontally or vertically.
+ * Rook chess piece, a Rook can move horizontally or vertically.
  */
 
-public class Rock extends ChessPiece {
+public class Rook extends ChessPiece {
 
   /**
    * Constructor
@@ -11,7 +11,7 @@ public class Rock extends ChessPiece {
    * @param theCol
    * @param theColor
    */
-  public Rock(int theRow, int theCol, Color theColor) {
+  public Rook(int theRow, int theCol, Color theColor) {
     super(theRow, theCol, theColor);
   }
 

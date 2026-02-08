@@ -43,6 +43,11 @@ public class Pawn extends ChessPiece {
       return false;
     }
 
+    // Pawn cannot move to the another column except killing another chess piece
+    if (targetCol != this.column) {
+      return false;
+    }
+
     // Black pawn can only move down and white pawn can only move up.
     int rowDiff = targetRow - this.row;
     // For white pawns
