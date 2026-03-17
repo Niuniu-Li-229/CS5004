@@ -1,0 +1,46 @@
+Overview
+You will write four Java programs (Program1, Program2, Program3, and Program4) to explore different approaches to handling arrays of various types.
+
+Instructions
+
+Program1: Using an Object Array
+Write a Java program named Program1.
+Implement a printArray() method that takes an array of Object as a parameter and prints its elements.
+In the main method, initialize and test the method with the following arrays:
+Integer[] intArry = {1, 2, 3, 4, 5};
+Double[] doubArry = {1.1, 2.2, 3.3, 4.4};
+Character[] charArry = {'H', 'E', 'L', 'L', 'O'};
+String[] strArry = {"once", "upon", "a", "time"};
+printArray(intArry);
+printArray(doubArry);
+printArray(charArry);
+printArray(strArry);
+Compile and run your program.
+
+
+Program2: Overloaded Methods
+Write a Java program named Program2.
+Implement four versions of printArray(), one for each data type: Integer[], Double[], Character[], and String[].
+Ensure that each method correctly prints the elements of its respective array.
+Compile and run your program.
+
+Program3: Generic Method
+Write a Java program named Program3.
+Implement a single generic version of printArray() that supports different data types while ensuring type safety.
+Use Java generics to write a method that prints any type of array.
+Compile and run your program.
+
+Program4: Finding the Maximum Value
+Write a Java program named Program4.
+Implement a method getMax() that takes an array of Comparable elements and returns the maximum element.
+public static Comparable getMax(Comparable[] anArray)
+In the main method, test getMax() using the provided arrays:
+System.out.println("Max Integer is: " + getMax(intArry));
+System.out.println("Max Double is: " + getMax(doubArry));
+System.out.println("Max Character is: " + getMax(charArry));
+System.out.println("Max String is: " + getMax(strArry));
+Compile and run your program.
+
+Submission Instructions
+Submit your four Java files (Program1.java, Program2.java, Program3.java, and Program4.java) on Canvas.
+Deadline: Tuesday, March 17th at 11:59 PM (PT).
