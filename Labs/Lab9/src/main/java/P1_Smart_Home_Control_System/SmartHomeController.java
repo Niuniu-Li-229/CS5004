@@ -1,3 +1,5 @@
+package P1_Smart_Home_Control_System;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,4 +54,9 @@ public class SmartHomeController {
       System.out.println(d.getStatus());
     }
   }
+
+  public List<SmartDevice> getDevices(){
+    return devices;
+  }
+
 }

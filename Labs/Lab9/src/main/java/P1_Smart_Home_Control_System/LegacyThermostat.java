@@ -1,3 +1,5 @@
+package P1_Smart_Home_Control_System;
+
 // Legacy thermostat with incompatible interface
 class LegacyThermostat {
 
@@ -9,7 +11,7 @@ class LegacyThermostat {
     this.temperature = 70;
   }
 
-  public void active(){
+  public void activate(){
     this.active = true;
   }
 

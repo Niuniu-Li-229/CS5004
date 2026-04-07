@@ -1,3 +1,5 @@
+package P1_Smart_Home_Control_System;
+
 public class SmartSpeaker implements SmartDevice{
   private boolean isOn;
 
